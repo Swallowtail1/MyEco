@@ -25,6 +25,21 @@ import { motion } from "framer-motion";
 export default function Stats() {
   return (
     <section className="py-20 px-6">
+      <motion.div
+      initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+      className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4">
+            Our Impact In Numbers
+          </h2>
+
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Bersama komunitas, kita telah melangkah jauh untuk menjaga bumi. 
+            Inilah kontribusi nyata yang berhasil kita kumpulkan bersama.
+          </p>
+        </motion.div>
       <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6">
         {stats.map((item, index) => (
           <motion.div

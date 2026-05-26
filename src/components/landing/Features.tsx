@@ -57,9 +57,14 @@ export default function Features() {
             return (
               <motion.div
                 key={index}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.2 }}
+                viewport={{ once: true }}
                 whileHover={{
                 y: -10,
                 scale: 1.03,
+                boxShadow: "0 10px 20px rgba(34,197,94,0.2)",
             }}
                 className="bg-white/5 border border-white/10 rounded-3xl p-8 hover:border-green-400/40 transition"
               >
