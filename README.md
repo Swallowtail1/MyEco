@@ -93,7 +93,7 @@ Admin dapat mengelola data utama aplikasi, seperti:
 
 Admin juga dapat mengatur reward points, carbon factor, daily limit, dan data challenge.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ### Frontend
 
@@ -167,7 +167,7 @@ Beberapa proses penting seperti penambahan dan penghapusan aktivitas juga menggu
 
 ```bash
 git clone https://github.com/Swallowtail1/MyEco.git
-cd ecotrack
+cd MyEco
 ```
 
 ### 2. Install Dependency
@@ -221,17 +221,6 @@ Project ini dikembangkan oleh:
 | Muhammad Hafizh zuhdi | 
 | Ilham Munawwar Hanif  | 
 
-
-## Competition
-
-MyEco dikembangkan sebagai karya untuk:
-
-```txt
-OLIVIA 2026
-Olimpiade Vokasi Nasional
-Cabang Lomba Web Technology
-Diselenggarakan oleh Universitas Negeri Surabaya (UNESA)
-```
 
 ## Status Project
 
