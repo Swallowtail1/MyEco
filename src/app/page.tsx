@@ -2,7 +2,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 import Hero from "@/components/landing/Hero";
-import Stats from "@/components/landing/Stats";
+import LiveStats from "@/components/landing/LiveStats";
 import Features from "@/components/landing/Features";
 import HowItWorks from "@/components/landing/HowItWorks";
 import LeaderboardPreview from "@/components/landing/LeaderboardPreview";
@@ -16,7 +16,7 @@ export default function HomePage() {
       <Navbar />
 
       <Hero />
-      <Stats />
+      <LiveStats />
       <Features />
       <HowItWorks />
       <LeaderboardPreview />

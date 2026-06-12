@@ -1,20 +1,21 @@
 "use client";
+import CountUp from "react-countup";
 const stats = [
   {
     title: "CO₂ Saved",
-    value: "12.5 Ton",
+    value: <CountUp end={12} suffix=" ton" enableScrollSpy={true} scrollSpyOnce={true}/>,
   },
   {
     title: "Active Users",
-    value: "2,450+",
+    value: <CountUp end={2450} enableScrollSpy={true} scrollSpyOnce={true}/>,
   },
   {
     title: "Challenges Completed",
-    value: "8,920",
+    value: <CountUp end={8920} enableScrollSpy={true} scrollSpyOnce={true}  />,
   },
   {
     title: "Plastic Reduced",
-    value: "14K+",
+    value: <CountUp end={14000} suffix="+" enableScrollSpy={true} scrollSpyOnce={true}/> ,
   },
 ];
 

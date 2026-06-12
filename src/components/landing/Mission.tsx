@@ -7,7 +7,7 @@ export default function Mission() {
         </h2>
 
         <p className="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto">
-          EcoTrack hadir untuk membantu generasi muda membangun
+          MyEco hadir untuk membantu generasi muda membangun
           kebiasaan ramah lingkungan melalui teknologi, data,
           dan gamification.
         </p>

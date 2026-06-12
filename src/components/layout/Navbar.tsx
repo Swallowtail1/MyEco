@@ -1,3 +1,5 @@
+import Link from "next/link";
+import NavbarActions from "@/components/landing/NavbarActions";
 export default function Navbar() {
   return (
     <nav className="w-full fixed top-0 z-50 backdrop-blur-md bg-white/5 border-b border-white/10">
@@ -19,9 +21,8 @@ export default function Navbar() {
             Challenges
           </a>
 
-          <button className="px-5 py-2 rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition">
-            Login
-          </button>
+            <NavbarActions />
+          
         </div>
       </div>
     </nav>

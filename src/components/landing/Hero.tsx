@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-
+import LandingActions from "./LandingActions";
 import { Leaf, Globe, Zap } from "lucide-react";
 
 export default function Hero() {
@@ -24,15 +24,13 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-400 text-lg leading-relaxed max-w-xl mb-8">
-            EcoTrack membantu generasi muda memahami dan mengurangi
+            MyEco membantu generasi muda memahami dan mengurangi
             jejak karbon melalui activity tracking, leaderboard,
             dan eco challenges.
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="px-7 py-4 rounded-2xl bg-green-400 text-black font-semibold hover:scale-105 transition">
-              Start Tracking
-            </button>
+              <LandingActions />
 
             <button className="px-7 py-4 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition">
               Explore Features

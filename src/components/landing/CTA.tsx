@@ -1,3 +1,5 @@
+import LandingActions from "./LandingActions";
+
 export default function CTA() {
   return (
     <section className="py-24 px-6">
@@ -10,12 +12,12 @@ export default function CTA() {
           </h2>
 
           <p className="text-gray-300 mb-10 text-lg">
-            Join EcoTrack today and make a difference for the planet.
+            Bergabunglah dengan MyEco hari ini dan buatlah perubahan bagi planet ini.
           </p>
 
-          <button className="px-8 py-4 rounded-2xl bg-green-400 text-black font-semibold hover:scale-105 transition">
-            Get Started Now
-          </button>
+          <div className="flex flex-wrap justify-center gap-6">
+            <LandingActions />
+          </div>
         </div>
       </div>
     </section>
